@@ -1,0 +1,202 @@
+/*****Base Styles*****/
+
+@font-face {
+  font-family: blushon;
+  src: url('../font/blushon.otf') format('opentype');
+}
+
+.body {
+  font-family: 'Source sans pro', sans-serif;
+  color: #2b2b2b;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 10px;
+}
+
+p {
+  font-size: 16px;
+}
+
+#about {
+  height: 400px;
+}
+
+#contact {
+  height:600px;
+}
+
+/*****Base Styles*****/
+
+/*****Grid*****/
+.full-width {
+  width: 1200px;
+  margin 0 auto;
+  overflow:auto;
+}
+
+.half-width {
+  width: 600px;
+  float:left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/*****Grid*****/
+
+
+/****Header****/
+
+header {
+  height: 800px;
+  background:url('../img/edge.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  padding: 65px 0 65px 25px;
+}
+
+header h1 a {
+  font-family: 'Rock Salt', cursive;
+  color: #424B54;
+  font-size: 40px;
+  text-decoration: none;
+
+}
+
+nav {
+  float: right;
+  padding: 75px 25px;
+  overflow: hidden;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 24px;
+  color: #A4969B;
+  padding-left: 70px;
+}
+
+/****Header****/
+
+/****Body****/
+
+#about .full-width {
+    padding: 30px 0;
+}
+
+#about h2 {
+  padding-left: 80px;
+  font-family: 'Rock Salt', cursive;
+  color: #A4969B;
+}
+
+#about p {
+padding-left: 80px;
+text-align: justify;
+line-height: 25px;
+}
+
+#about img {
+    padding: 30px 40px;
+    width:350px;
+    float: right;
+    overflow: hidden;
+}
+
+/****** CONTACT ******/
+
+#contact {
+  background-color: #C4CAD0;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact img#contact-hand {
+    width: 350px;
+    border: 8px solid #ffffff;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+
+#contact h2, h3 {
+  font-family: 'Rock Salt', cursive;
+  color: #A4969B;
+  text-align: left;
+  padding-left: 160px;
+  line-height: 54px;
+  margin: 10px 0;
+}
+
+
+#contact #envelope {
+  padding: 0 10px 0 115px;
+}
+
+#contact #contact-info {
+    font-weight: 400;
+    line-height:24px;
+    margin: 30px 0 5px 0;
+}
+
+
+#contact #tagline {
+    font-weight: 400;
+    line-height:44px;
+    margin: 40px 0 0 0;
+}
+
+#contact a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#contact ul {
+  list-style: none;
+}
+
+#contact ul li {
+  display: inline-flex;
+}
+
+#contact ul img {
+  font-size: 32px;
+  padding-right: 35px;
+}
+
+/****Body****/
+
+/****Footer****/
+
+footer {
+  text-align: center;
+  background-color: #424B54;
+}
+
+/****Footer****/
