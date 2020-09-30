@@ -26,6 +26,10 @@ p {
   font-size: 16px;
 }
 
+#main-photo {
+  height: 400px;
+}
+
 #about {
   height: 400px;
 }
@@ -59,14 +63,13 @@ p {
 /****Header****/
 
 header {
-  height: 800px;
-  background:url('../img/edge.jpg');
-  background-size: cover;
-  background-position: center;
+  height: 170px;
+  background-color: white;
+  overflow: hidden;
 }
 
 h1 {
-  padding: 65px 0 65px 25px;
+  padding: 25px 0 35px 25px;
 }
 
 header h1 a {
@@ -74,6 +77,7 @@ header h1 a {
   color: #424B54;
   font-size: 40px;
   text-decoration: none;
+  background-color: white;
 
 }
 
@@ -98,6 +102,12 @@ nav ul li a {
 /****Header****/
 
 /****Body****/
+
+#main-photo {
+  background:url('../img/cowork.jpg');
+  background-size: cover;
+  background-position:center;
+}
 
 #about .full-width {
     padding: 30px 0;
@@ -136,11 +146,14 @@ line-height: 25px;
 
 #contact img#contact-hand {
     width: 350px;
+    margin-left: 55px;
     border: 8px solid #ffffff;
 }
 
-#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
-    padding-left: 115px;
+#contact #contact-info {
+    font-weight: 400;
+    line-height:24px;
+    margin: 30px 0 5px 0;
 }
 
 #contact h2, h3 {
@@ -152,15 +165,8 @@ line-height: 25px;
   margin: 10px 0;
 }
 
-
 #contact #envelope {
   padding: 0 10px 0 115px;
-}
-
-#contact #contact-info {
-    font-weight: 400;
-    line-height:24px;
-    margin: 30px 0 5px 0;
 }
 
 
@@ -190,6 +196,10 @@ line-height: 25px;
   padding-right: 35px;
 }
 
+#contact p {
+  float: left;
+  display: inline;
+}
 /****Body****/
 
 /****Footer****/
